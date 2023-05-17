@@ -1,0 +1,115 @@
+body{
+    background-color: black;
+    overflow-x: hidden;
+    width: 100vw;
+}
+.container{
+    display: flex;
+    background-color: black;
+    
+}
+.bar{
+    /* background-color: aqua; */
+    display: flex;
+}
+.trend{
+    color: antiquewhite;
+    margin-top: 50px;
+}
+.horz{
+    /* border: 2px solid blue; */
+    width:80vw;
+    height: 5vh;
+    margin-left: 20px;
+    padding-left: 40px;
+    border-radius: 20px;
+}
+.horz .placeholder{
+    margin-left: 30px;
+}
+
+.vert{
+    height: 150vh;
+    width: 5vw;
+    width: 20;
+    background: rgb(84, 94, 94);
+    /* border: 2px solid red; */
+    
+}
+.card{
+    display: inline-flex;
+    flex-wrap: wrap;
+    width:90vw;
+    /* border: 2px solid green; */
+    gap:20px;
+
+}
+.imge{
+    object-fit: cover;
+    /* transform: translate(30%,-300%); */
+    border-radius: 10px;
+    width: 100%;
+}
+.word{
+    color: white;
+    transform: translate(0%,-170%);
+}
+.sideContent{
+    margin-left:30px;
+    
+}
+.side{
+    /* display: block; */
+}
+.rcard img{
+    width:29vw;;
+    height:200px;
+}
+.in{
+    /* border: 2px solid red; */
+    transform: translate(-1120px,14%);
+    width: 25px;
+}
+.bookmark{
+    /* border: 2px solid red; */
+    position: absolute;
+    transform: translate(-200%,60%);
+    color: white;
+    
+}
+.bookmark2{
+    /* border: 2px solid red; */
+    /* transform: translate(0%,0%); */
+    color: white;
+    position: absolute;
+    transform: translate(-200%,60%);
+
+}
+
+
+.film{
+    font-size: 30px;
+    transform: translate(80%,300%);
+}
+.menu{
+    font-size: 30px;
+    transform: translate(-20%,500%);
+}
+.movie{
+    font-size: 30px;
+    transform: translate(75%,600%);
+    
+}
+.tv{
+    font-size: 30px;
+    transform: translate(-20%,800%);
+
+}
+.bookm{
+    font-size: 30px;
+    transform: translate(80%,900%);
+}
+.scard{
+    width:20vw;
+}
+
